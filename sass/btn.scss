@@ -1,0 +1,29 @@
+.btn {
+  &--copy {
+    width: rem(30px);
+    height: rem(30px);
+
+    background-color: transparent;
+    border: none;
+  }
+
+  &--modal,
+  &--change {
+    max-width: rem(360px);
+    width: 100%;
+    padding: 0.625em 0;
+    border: none;
+    border-radius: 0.625em;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $yellow;
+
+    &:active {
+      background-color: $orange;
+    }
+  }
+
+  &--change {
+    margin-top: 1.25em;
+  }
+}

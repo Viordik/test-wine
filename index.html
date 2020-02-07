@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="wrapper"></div>
+  </header>
+  <main>
+    <div class="wrapper">
+      <p class="text">Нажмите на иконку "копировать" и текст из поля будет скопирован</p>
+      <div class="input__wrapper">
+        <button type="button" class="btn btn--copy">
+          <svg class="icon">
+            <use xlink:href="img/sprite.svg#copy">
+          </svg>
+        </button>
+        <input id="url" class="input" type="text" name="url" value="">
+      </div>
+      <span class="message"></span>
+    </div>
+
+
+    <div class="wrapper">
+      <button class="btn btn--modal">Модал</button>
+    </div>
+
+    <div class="modal">
+      <p class="modal__text">Тут какой то текст</p>
+
+      <button class="btn btn--change" type="button">Изменить</button>
+    </div>
+  </main>
+  <footer>
+    <div class="wrapper"></div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

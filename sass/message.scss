@@ -1,0 +1,13 @@
+.message {
+  margin-top: 0.625em;
+  height: rem(20px);
+  text-transform: uppercase;
+
+  &--error {
+    color: $red;
+  }
+
+  &--good {
+    color: $green;
+  }
+}

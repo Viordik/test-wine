@@ -1,0 +1,19 @@
+.modal {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: rem(320px);
+  height: rem(200px);
+  padding: 1em;
+
+  background-color: $white;
+  border: 2px solid $black;
+  border-radius: 0.625em;
+  transform: translate(-50%, -50%);
+
+  &--active {
+    display: block;
+  }
+}

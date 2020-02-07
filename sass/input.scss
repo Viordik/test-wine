@@ -1,0 +1,26 @@
+.input {
+  display: block;
+  width: 100%;
+  max-width: rem(360px);
+  padding: 0.9375em;
+
+  border: 1px solid $black;
+  border-radius: 0.625em;
+
+  &:focus {
+    border-color: $yellow;
+  }
+
+  &__wrapper {
+    position: relative;
+    max-width: rem(360px);
+    width: 100%;
+
+    & .btn {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
